@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "scripts": {
+        "docker:build": "docker build --platform=linux/amd64 -t cdk_ecs_fargate_app .",
+        "docker:run": "docker run cdk_ecs_fargate_app",
+        "docker:login": "aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <accountId>.dkr.ecr.<region>.amazonaws.com",
+        "docker:tag": "docker tag cdk_ecs_fargate_app:latest <accountId>.dkr.ecr.<region>.amazonaws.com/cdk_ecs_fargate_app:latest",
+        "docker:push": "docker push <accountId>.dkr.ecr.<region>.amazonaws.com/cdk_ecs_fargate_app:latest",
+
+        "cdk:deploy": "cdk deploy",
+        "cdk:destroy": "cdk destroy",
+
+        "ecs:run": "aws ecs run-task --cluster cdk_ecs_fargate_app --task-definition cdk_ecs_fargate_app-td --launch-type FARGATE --count 1 --network-configuration file://network-configuration.json",
+
+        "build-and-run": "yarn docker:build && yarn docker:run",
+        "build-and-publish": "yarn docker:build && yarn docker:login && yarn docker:tag && yarn docker:push",
+        "deploy-and-run": "yarn cdk:deploy && yarn ecs:run"
+    }
+}

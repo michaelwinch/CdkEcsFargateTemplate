@@ -1,0 +1,5 @@
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core
+nuget Amazon.CDK.Lib
+nuget Amazon.CDK.AWS.ECS

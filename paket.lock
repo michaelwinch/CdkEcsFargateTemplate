@@ -1,0 +1,324 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Amazon.CDK (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.Asset.AwsCliV1 (2.2.226) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.108 < 2.0) - restriction: >= netcoreapp3.1
+    Amazon.CDK.Asset.NodeProxyAgentV6 (2.1) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.103.1 < 2.0) - restriction: >= netcoreapp3.1
+    Amazon.CDK.Assets (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.APIGateway (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CertificateManager (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancingV2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ApplicationAutoScaling (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.AutoScaling.Common (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.AutoScaling (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.AutoScaling.Common (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancing (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancingV2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.AutoScaling.Common (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.AutoScaling.HookTargets (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.AutoScaling (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS.Subscriptions (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SQS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.CertificateManager (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudFormation (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Route53 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.CloudFormation (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.CloudFront (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CertificateManager (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.KMS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.CloudWatch (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.EC2 (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SSM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ECR (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Events (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ECS (0.36.1)
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ApplicationAutoScaling (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.AutoScaling (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.AutoScaling.HookTargets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CertificateManager (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudFormation (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ECR (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancing (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancingV2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Logs (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Route53 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Route53.Targets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SecretsManager (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ServiceDiscovery (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SQS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SSM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.ECR.Assets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ElasticLoadBalancing (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ElasticLoadBalancingV2 (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CertificateManager (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.Events (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.IAM (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.RegionInfo (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.KMS (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.Lambda (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Events (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Logs (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3.Assets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SQS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.Logs (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.Route53 (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Logs (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.Route53.Targets (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.APIGateway (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudFront (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancingV2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Route53 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.S3 (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Events (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.KMS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.S3.Assets (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.Assets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.SecretsManager (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.KMS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.ServiceDiscovery (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.EC2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ElasticLoadBalancingV2 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Route53 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.SNS (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Events (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.SNS.Subscriptions (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SNS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.SQS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.SQS (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudWatch (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.KMS (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.AWS.SSM (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.CloudAssembly.Schema (40.7) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.108 < 2.0) - restriction: >= netcoreapp3.1
+    Amazon.CDK.CXAPI (2.182) - restriction: >= netstandard2.0
+      Amazon.CDK.CloudAssembly.Schema (>= 40.6 < 41.0) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.106 < 2.0) - restriction: >= netcoreapp3.1
+    Amazon.CDK.ECR.Assets (0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.Assets (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.CloudFormation (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.ECR (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.IAM (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.Lambda (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.AWS.S3 (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.CDK.CXAPI (>= 0.36.1) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 0.13.2) - restriction: >= netstandard2.0
+    Amazon.CDK.Lib (2.182)
+      Amazon.CDK.Asset.AwsCliV1 (>= 2.2.208 < 3.0) - restriction: >= netcoreapp3.1
+      Amazon.CDK.Asset.NodeProxyAgentV6 (>= 2.1 < 3.0) - restriction: >= netcoreapp3.1
+      Amazon.CDK.CloudAssembly.Schema (>= 40.6 < 41.0) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.106 < 2.0) - restriction: >= netcoreapp3.1
+      Constructs (>= 10.0 < 11.0) - restriction: >= netcoreapp3.1
+    Amazon.CDK.RegionInfo (2.182) - restriction: >= netstandard2.0
+      Amazon.JSII.Runtime (>= 1.106 < 2.0) - restriction: >= netcoreapp3.1
+    Amazon.JSII.Runtime (1.108) - restriction: >= netstandard2.0
+      Microsoft.Extensions.DependencyInjection (>= 9.0.1) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Logging (>= 9.0.1) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Logging.Console (>= 9.0.1) - restriction: >= netcoreapp3.1
+      Newtonsoft.Json (>= 13.0.3) - restriction: >= netcoreapp3.1
+    Constructs (10.4.2) - restriction: >= netcoreapp3.1
+      Amazon.JSII.Runtime (>= 1.102 < 2.0) - restriction: >= netcoreapp3.1
+    FSharp.Core (9.0.201)
+    Microsoft.Bcl.AsyncInterfaces (9.0.2) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (< net8.0) (>= netcoreapp3.1))
+    Microsoft.Extensions.Configuration (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Configuration.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Primitives (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.Configuration.Abstractions (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Primitives (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.Configuration.Binder (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Configuration.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.DependencyInjection (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.DependencyInjection.Abstractions (9.0.2) - restriction: >= netcoreapp3.1
+    Microsoft.Extensions.Logging (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.DependencyInjection (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Options (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      System.Diagnostics.DiagnosticSource (>= 9.0.2) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.1)) (&& (>= netstandard2.0) (< netstandard2.1))
+    Microsoft.Extensions.Logging.Abstractions (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      System.Buffers (>= 4.5.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Diagnostics.DiagnosticSource (>= 9.0.2) - restriction: || (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    Microsoft.Extensions.Logging.Configuration (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Configuration (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Configuration.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Configuration.Binder (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Options (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Options.ConfigurationExtensions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.Logging.Console (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Bcl.AsyncInterfaces (>= 9.0.2) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Logging.Configuration (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Options (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      System.Buffers (>= 4.5.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Text.Json (>= 9.0.2) - restriction: || (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
+    Microsoft.Extensions.Options (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Primitives (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      System.ComponentModel.Annotations (>= 5.0) - restriction: || (&& (< net462) (>= netstandard2.0) (< netstandard2.1)) (&& (< net8.0) (>= netstandard2.1))
+    Microsoft.Extensions.Options.ConfigurationExtensions (9.0.2) - restriction: >= netcoreapp3.1
+      Microsoft.Extensions.Configuration.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Configuration.Binder (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Options (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Primitives (>= 9.0.2) - restriction: || (>= net462) (>= netstandard2.0)
+    Microsoft.Extensions.Primitives (9.0.2) - restriction: >= netcoreapp3.1
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    Newtonsoft.Json (13.0.3) - restriction: >= netcoreapp3.1
+    System.Buffers (4.6) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (< net8.0) (>= netcoreapp3.1))
+    System.ComponentModel.Annotations (5.0) - restriction: || (&& (< net8.0) (>= netcoreapp3.1)) (&& (>= netcoreapp3.1) (< netstandard2.1))
+    System.Diagnostics.DiagnosticSource (9.0.2) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netcoreapp3.1)) (&& (>= netcoreapp3.1) (< netstandard2.1))
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    System.IO.Pipelines (9.0.2) - restriction: || (&& (>= net462) (>= net8.0)) (&& (>= net462) (>= netcoreapp3.1)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netcoreapp3.1))
+      System.Buffers (>= 4.5.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Threading.Tasks.Extensions (>= 4.5.4) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    System.Memory (4.6) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (< net8.0) (>= netcoreapp3.1))
+    System.Runtime.CompilerServices.Unsafe (6.1) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (< net8.0) (>= netcoreapp3.1)) (&& (>= netcoreapp3.1) (< netstandard2.1))
+    System.Text.Encodings.Web (9.0.2) - restriction: || (&& (>= net462) (>= net8.0)) (&& (>= net462) (>= netcoreapp3.1)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netcoreapp3.1))
+      System.Buffers (>= 4.5.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    System.Text.Json (9.0.2) - restriction: || (&& (>= net462) (>= netcoreapp3.1)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netcoreapp3.1))
+      Microsoft.Bcl.AsyncInterfaces (>= 9.0.2) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Buffers (>= 4.5.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.IO.Pipelines (>= 9.0.2) - restriction: || (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.5.5) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Text.Encodings.Web (>= 9.0.2) - restriction: || (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Threading.Tasks.Extensions (>= 4.5.4) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
+    System.Threading.Tasks.Extensions (4.6) - restriction: || (&& (>= net462) (>= net8.0)) (&& (>= net462) (>= netcoreapp3.1)) (&& (< net8.0) (>= netcoreapp3.1))
