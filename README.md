@@ -29,7 +29,7 @@ If you're using this as a template and just want to copy this and get going, you
     1. `dotnet tool install paket`
     2. You'll be able to run paket commands like so `dotnet paket install`
 5. Add fantomas if wanted (F# formatter)
-    1. `dotnet tool install paket`
+    1. `dotnet tool install fantomas`
     2. Create your `.editorconfig` file
 6. Add yarn (personal preference for running scripts)
     1. `yarn init`
@@ -59,12 +59,12 @@ If you're using this as a template and just want to copy this and get going, you
 
 By this point, we have created a new repo and set up the framework of the code we need. This is a good place to push what you've got so far and take a break.
 
-Next, we will create a docker image from your app code and run it locally. It will include scripts that you'll reuse a lot, you can use your preferred method for this but I'm using `yarn` here.
+Next, we will create a docker image from your app code and run it locally. It will include scripts that you'll reuse a lot. You can use your preferred method for this, but I'm using `yarn` here.
 
 1. Create a `.dockerignore` file
     1. I let Rider generate mine when creating a new solution at one point, and have just been reusing it
 2. Create a `Dockerfile`
-    1. I let Rider generate this too but I edited it to work with paket insted of nuget
+    1. I let Rider generate this too, but I edited it to work with paket instead of nuget
     2. Main changes are copying the tool manifest and paket files, and restoring those before running `dotnet build` and `dotnet publish`
     3. It's worth spending time here to understand the main dockerfile commands by reading the docker documentation
         1. FROM
@@ -84,15 +84,15 @@ Next we'll set up the CDK stack.
     2. `Amazon.CDK.AWS.ECS`
     3. `dotnet paket install`
 2. Implement the CDK stack
-    1. The code is fairly self explanatory, refer to the CDK documentation for details on how to customise things like CPU / memory usage
-3. Move customise the `cdk.json` file to support the new file structure
+    1. The code is fairly self-explanatory, refer to the CDK documentation for details on how to customise things like CPU / memory usage
+3. Customise the `cdk.json` file to support the new file structure
     1. `mv cdk/cdk.json .`
     2. Edit the file, set `app` to the correct file path of the CDK project
 4. Deploy the stack
     1. `cdk deploy`
 5. Destroy the stack
     1. `cdk destroy`
-    2. Useful in case you notice an issue in the stack e.g. wrong name or if the stack is for a one off task
+    2. Useful in case you notice an issue in the stack e.g. wrong name or if the stack is for a one-off task
 
 You should now be able to see the new resources in the AWS console. Next we'll push the docker image to the new ECR repo. These commands are available in the AWS console if you select a repo and click on 'View push commands'.
 
